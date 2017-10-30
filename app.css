@@ -1,0 +1,26 @@
+body {
+  padding: 2em;
+  font-family: sans-serif;
+}
+
+div {
+  margin-top: 2rem;
+}
+
+.user {
+  color: white;
+  background-color: gray;
+  padding: 1em;
+}
+
+.user:before {
+  font-family: "Font Awesome 5 Regular";
+  display: none;
+  content: "\f007";
+}
+
+.user .svg-inline--fa {
+  padding-right: 0.5em;
+}
+
+
