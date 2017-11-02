@@ -14,13 +14,43 @@ div {
 }
 
 .user:before {
-  font-family: "Font Awesome 5 Regular";
   display: none;
   content: "\f007";
 }
 
 .user .svg-inline--fa {
   padding-right: 0.5em;
+}
+
+/* Toggle */
+.toggle, .fa-toggle {
+  padding: 1rem;
+  border: 1px solid blue;
+}
+
+.toggle.collapsed, .fa-toggle.collapsed {
+  border: 1px solid pink;
+}
+
+
+.toggle:after {
+  content: "\25BC";
+}
+
+.toggle.collapsed:after {
+  content: "\25C0";
+}
+
+.fa-toggle:after {
+  font-family: 'Font Awesome 5 Regular';
+  content: "\f078";
+  display:none;
+}
+
+.fa-toggle.collapsed:after {
+  font-family: 'Font Awesome 5 Regular';
+  content: "\f053";
+  display:none;
 }
 
 
