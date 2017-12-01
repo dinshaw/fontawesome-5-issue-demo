@@ -13,7 +13,7 @@
     <div><i class='fa fa-cog'></i></div>
     <div class="user">User</div>
 
-    <script src="everything.js"></script>
+    <script src="fontawesome-all.min.js"></script>
     <p><a href="toggle.html">Toggle Demo</a>
   </body>
 </html>
