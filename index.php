@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fontawesome Jquery error</title>
+    <title>Fontawesome Css Content Toggle Issue</title>
 
     <script src="jquery.js"></script>
     <script src="app.js"></script>
@@ -9,12 +9,15 @@
   </head>
 
   <body>
-    <div class='container'></div>
-    <div><i class='fa fa-cog'></i></div>
-    <div class="user">User</div>
-
+    <div>
+      <a class="toggle"><i> </i></a>
+      <p>Click me, I toggle my arrow.</p>
+    </div>
+    <div>
+      <a class="fa-toggle"><i> </i></a>
+      <p>Click me, but my arrow won't change.
+    </div>
     <script src="fontawesome-all.min.js"></script>
-    <p><a href="toggle.html">Toggle Demo</a>
   </body>
 </html>
 
